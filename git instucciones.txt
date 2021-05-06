@@ -1,0 +1,53 @@
+instrucciones git
+
+importante  si no puedes salir del commit  utiliza escape shit Z  Z
+git init    debes estar dentro de la carpeta de tu proyecto e indica que esta
+            es tu carpeta´principal.
+git status        checa el estado actual de git
+git add practica5.txt        agrega practica 5 al git
+git add .                    agrega todos los cambios
+git rm --cached practica5.txt      borra practica 5 del historial de git
+--      un solo guion indica que se usara una letra despues del guion y ...
+        dos guines indica que usaras una palabra despues de los guines.
+git commit -m  "iniciamos el proyecto aqui"
+cat practica5.txt   abre el archivo en el bash pero no se puede modificar
+git log practica5.txt      abre el historial de cambios de el archivo practica5
+git show practica5.txt      muestra que se agrego y se quito en el archivo practica5
+git diff      para utilizar este comando primero tienes que usar git log practica5 y....
+              despues git diff copiar el primer nombre del commit y dejar un espacio
+              despues copiar el nombre del segundo commit y dar enter
+git reset de8245bb9d915ec5 --hard     regresa en el tiempo todos los archivos a una version anterior
+git log --stat   muestra todas los commit y el espacio en disco duro agregado de cada
+                 version
+git checkout 0276f8dae4de practica5.txt  regresa en el tiempo un solo archivo para...
+                          volver ala version mas actualizada usar checkout master practica5.txt            
+git checkout master practica5        vuelve ala version mas actualizada de practica5.txt hacer otro...
+                                     git add y git commit para guardar los cambios.
+
+--------------------------github---------------------------------------------
+git clone url_del_servidor_remoto: Nos permite descargar los archivos de la última versión de la rama principal y todo el historial de cambios en la carpeta .git.
+git push: Luego de hacer git add y git commit debemos ejecutar este comando para mandar los cambios al servidor remoto.
+git fetch: Lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local (en caso de que hayan, por supuesto).
+git merge: También usamos el comando git merge con servidores remotos. Lo necesitamos para combinar los últimos cambios del servidor remoto y nuestro directorio de trabajo.
+git pull: Básicamente, git fetch y git merge al mismo tiempo
+git commit -am  "a significa commit add . y la letra -m es para agragar mensaje"
+git branch rama12      crea una rama llamada rama12
+git checkout rama12       se cambia ala rama12
+git checkout master       regresa ala rama maestra
+git merge rama12          debes de estar en la rama master y hacer el git merge rama12
+                          esto uniria la rama12  ala rama master. guardar los cambios
+
+
+ 
+-----------------------------configuracion de git primer uso------------------- 
+git config --global user.name "Ernesto porras"
+git config --global user.email "ernestoporras2006@gmail.com" 
+git config -l    muestra las credenciales
+
+
+---------------------------github-----------------------------------------
+ git remote add origin https://github.com/ernertoporras/practica25.git
+ git remote -v           para checar la direccion ala que se va el proyecto
+ git push origin master
+git pull origin master   trae informacion desde la web github
+git pull origin main --allow-unrelated-histories
