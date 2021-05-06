@@ -1,0 +1,33 @@
+[33mcommit f17bd983690ab94479ac0d1f16ae3153460ca408[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mrama1[m[33m)[m
+Merge: ba5a17f c49e655
+Author: Ernesto Porras <ernestoporras2006@gmail.com>
+Date:   Thu May 6 16:41:59 2021 -0500
+
+    Merge branch 'master' of https://github.com/ernertoporras/aperndiendo_git3 into rama1
+    
+    Please enter a commit message to explain why this merge is necessary,
+    a especially if it merges an updated upstream into a topic branch.
+
+[33mcommit c49e655eb493eb65ac729ba2e641236e35a1f8b6[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: ernertoporras <43920361+ernertoporras@users.noreply.github.com>
+Date:   Thu May 6 16:34:17 2021 -0500
+
+    Create README.md
+
+[33mcommit ba5a17f2c7167e80ff719e0d59bf7238a1d08d50[m
+Author: Ernesto Porras <ernestoporras2006@gmail.com>
+Date:   Thu May 6 16:25:24 2021 -0500
+
+    rama 1 version 2
+
+[33mcommit 81c0f13a9c245ae4004325b9630d50f8c2096b66[m
+Author: Ernesto Porras <ernestoporras2006@gmail.com>
+Date:   Thu May 6 16:19:54 2021 -0500
+
+    segundo commit
+
+[33mcommit 40db0fbecc916d5c68d71b42997fe62a1ee993dc[m
+Author: Ernesto Porras <ernestoporras2006@gmail.com>
+Date:   Thu May 6 16:12:05 2021 -0500
+
+    inicio de proyecto
