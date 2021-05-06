@@ -1,0 +1,26 @@
+instrucciones de consola
+control l   limpia la consola
+ls    muestra un listado
+mkdir   significa make directory
+touch ejemplo.txt    crea un archivo nuevo llamado touch.txt
+py    inicia la consola de python   ejecuta una sola linea de codigo
+exit ()     salir de la linea de comandos 
+str  convierte un numero a una cadena de texto
+not   invierte el conteinido de una variable de falso a verdadero y viseversa
+!= distinto
+py conversor.py        corre el archivo python en la consola
+round (dolares , 2)       redondea un numero a 2 decimales
+"""    """           te permite crear texto respetando los saltos de lineas
+.upper()    convierte todo a mayusculas
+.capitalize()   convierte la primera letra a mayusculas
+.strip()     elimina los espacios basura al principio y al final
+.lower()     todo a minisculas
+.replace("o", "a")     remplaza todas las letras o por la letra a
+nombre[0]             regresa la primera letra del nombre
+len(nombre)          cuenta los caracteres de el nombre
+NOMBRE[0:3]       corta el nombre y deja las primeras 3 letras empezando el indice 0
+objetos.append      agrega un objeto al final de la lista
+objetos.pop(2)      borra elementos que contenga el indice 2 de  la lista
+for pais in poblacion_paises.keys():      regresa todas las llaves del diccionario  poblacion
+for pais in poblacion_paises.values():   regresa todos los valores del diccionario poblacion
+for pais , poblacion  in poblacion_paises.items():    regresa ambos valores la llave y su valor
